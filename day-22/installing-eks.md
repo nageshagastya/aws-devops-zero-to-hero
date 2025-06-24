@@ -8,6 +8,12 @@ Please follow the prerequisites doc before this.
 eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 ```
 
+## Update kube config
+
+```
+aws eks update-kubeconfig --name demo-cluster --region us-east-1
+```
+
 ## Delete the cluster
 
 ```
